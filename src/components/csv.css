@@ -1,0 +1,191 @@
+
+  .table {
+    border: 2px solid black;
+    background-color: white;
+  }
+  
+
+  .h3
+  {
+    text-align:center;
+    font-size: 100%;
+
+  }
+
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align:center;
+  }
+  
+  #customers tr:nth-child(even){background-color:#91d4e4}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #6ad7e1; ;
+    color: white;
+    color:black;
+    font-size: large;
+  }
+
+  #customer-errors tr{background-color:#d4878e}
+  
+  #customer-errors tr:hover {background-color: #ddd;}
+  
+  #customer-errors th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #d21626; ;
+    color:black;
+    
+  }
+    
+  #customer-errors td, #customer-errors th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align:center;
+    color:black
+  }
+
+  #customer-errors {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .h4
+  {
+    text-align:center;
+    font-size: 100%;
+
+  }
+
+  .h5
+  {
+    text-align:left;
+    font-size: 100%;
+  }
+
+  .h4
+  {
+    text-align:center;
+    font-size: 100%;
+    font-family:Ariel;
+
+  }
+
+  .form
+  {
+    outline-style: solid;
+    outline-color:aqua
+  }
+
+  .button {
+    background-color: #258faa;
+    border: none;
+    color: rgb(29, 20, 20);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 2px 1px;
+    border-radius: 2px;
+
+  }
+
+  .modalButton {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 24px;
+  }
+  
+  
+  .overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .modalContainer {
+    max-width: 600px;
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color:white;
+    box-shadow: 0px 0px 0px 0px cyan(0, 0, 0, 0.75);
+    border-radius: 8px;
+  }
+  
+
+  
+  .modalRight {
+    width: 100%;
+  }
+  
+  .closeBtn {
+    left: 40 px;
+    position: fixed;
+    right: 8px;
+    background-color:white;
+    display:flex;
+    border-radius: 8 px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+  }
+  
+  .btnContainer {
+    display: flex;
+    padding: 1rem 1rem;
+  }
+  .btnContainer button {
+    width: 100%;
+    margin: .5rem;
+    padding: 16px 0;
+    border: 1px solid #297ebf;
+  }
+  
+  .btnPrimary {
+    background-color:white;
+    color:black;
+    outline-color: purple;
+  }
+  
+  .btnOutline {
+    background-color: white;
+    color:black;
+  }
+  
+  
+  
+  
+    
+
+ 
+
+  
+
+
+  
